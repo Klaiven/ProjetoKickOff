@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #76BFAC;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Menu Bar */
+header img{
+    width: 160px;
+    margin-left: 30px;
+}
+header{
+    background-color: #68A797;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 1px 2px black;
+    position: relative;
+}
+header a{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    padding: 0 5px;
+    display: flex;
+    margin: auto 30px;
+    border-radius: 20px;
+}
+
+
+/* Login */
+
+article{
+    height: 65vh;
+    width: 800px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px black;
+}
+
+.loginform{
+    background-color: #68A797;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid;
+    border-radius: 15px 0px 0px 15px;
+    justify-content: center;
+    align-items: center;
+    width: 55vh;
+}
+
+.loginform img{
+    height: 160px;
+    margin-top: -20px;
+}
+
+.loginform h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+}
+
+.loginform p{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.loginform input{
+    height: 30px;
+    width: 320px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #E7E7E7;
+    border: none;
+    border-radius: 5px;
+}
+
+.loginform button{
+    background-color: #68A797;
+    color: white;
+    border: 1px solid;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.loginform .cad{
+    color: white;
+    text-decoration: underline;
+    padding-top: 10px;
+    display: none;
+}
+
+
+
