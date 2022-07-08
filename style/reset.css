@@ -1,3 +1,4 @@
+/* GERAL INICIO */
 *{
     padding: 0;
     margin: 0;
@@ -5,99 +6,64 @@
 }
 body{
     background-color: #76BFAC;
-    display: block;
-    position: relative;
-    box-sizing: border-box;
-    height: 100vh;
 }
+
 a{
     text-decoration: none;
-    color: black;
 }
+/* GERAL FIM */
 
-h1{
-    font-size: 24px;
-    font-weight: 800;
-    color: white;
-}
 
-/* Menu Bar */
-header .menuimage{
-    background-image: url(../images/LogoMenuBar.png);
-    margin-top: -20px;
-    height: 5rem;
-    width: 12rem;
-    background-size: cover;
-    margin-left: 1.5%;
-}
+
+/* HEADER INICIO */
 header{
-    background-color: #68A797;
     display: flex;
-    justify-content: space-between;
     height: 60px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #68A797;
     border-radius: 0px 0px 20px 20px;
-    box-shadow: 0px 1px 2px black;
-    position: relative;
+    box-shadow: 0px 0.1px 3px rgba(0, 0, 0, 0.637);
 }
-header a{
-    font-size: 24px;
-    font-weight: 700;
+
+header img{
+    width: 100px;
+    margin: 0 60px;
+}
+
+header .link{
+    font-size: 18px;
     color: white;
-    padding: 6px;
-    display: flex;
-    margin: auto 30px;
+    font-weight: 800;
+    margin: 0 50px;
+    padding: 10px;
     border-radius: 20px;
 }
 
-.link:hover{
+header .link:hover{
     background-color: #76BFAC;
-    transition: 300ms;
-    padding: 6px;
+    transition: 200ms;
 }
 
-/* Button */
+/* HEADER FIM */
 
-button{
-    background-color: #68A797;
-    color: white;
-    border: 1px solid;
-    width: 120px;
-    height: 60px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 15px;
+/* FOOTER INICIO */
+footer{
+    display: flex;
+    background-color: #506175;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }
 
-button:hover{
-    background-color: #e7e7e77e;
-    color: black;
-    transition: 300ms;
-}
-
-/* Inputs */
-
-.loginform p{
-    font-size: 14px;
-    font-weight: 500;
+footer p{
     color: white;
 }
 
-input{
-    height: 30px;
-    width: 320px;
-    padding: 5px;
-    margin: 5px;
-    background-color: #E7E7E7;
-    border: none;
-    border-radius: 5px;
+footer a{
+    color: #76BFAC;
+    margin-left: 5px;
+    font-weight: 700;
 }
-
-
-/* Medias */
-
-@media(max-width: 820px){
-    header{
-        background-color: transparent;
-        box-shadow: none;
-    }
-}
+/* FOOTER FIM */
